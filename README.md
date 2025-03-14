@@ -64,18 +64,3 @@ uvicorn main:app --reload
 ```sh
 curl -X GET "http://127.0.0.1:8000/process-contacts"
 ```
-
-## Testing
-To run unit tests (if implemented):
-```sh
-pytest tests/
-```
-
-## Future Enhancements
-- Implement email notifications for errors.
-- Add more logging and monitoring.
-- Expand API functionality for other HubSpot objects.
-
-## License
-This project is licensed under the MIT License.
-
